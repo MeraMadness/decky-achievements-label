@@ -1,0 +1,8 @@
+{
+  "name": "achievements-label",
+  "version": "1.0.0",
+  "description": "Restores an Achievements column in the Big Picture game details bar.",
+  "type": "module",
+  "license": "GPL-3.0-only",
+  "private": true
+}

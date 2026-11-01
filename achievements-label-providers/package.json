@@ -1,0 +1,8 @@
+{
+  "name": "achievements-label-providers",
+  "version": "1.0.0",
+  "description": "Add-on for Achievements Label: achievements for RPCS3, RetroAchievements and MadnessPatch games.",
+  "type": "module",
+  "license": "GPL-3.0-only",
+  "private": true
+}

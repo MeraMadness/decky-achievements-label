@@ -1,0 +1,11 @@
+{
+  "name": "Achievements Label",
+  "author": "MeraMadness",
+  "flags": [],
+  "api_version": 1,
+  "publish": {
+    "tags": ["achievements", "big-picture", "ui"],
+    "description": "Restores an Achievements column (unlocked / total) in the Big Picture game details bar.",
+    "image": ""
+  }
+}

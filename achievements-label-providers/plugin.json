@@ -1,0 +1,11 @@
+{
+  "name": "Achievements Label Providers",
+  "author": "MeraMadness",
+  "flags": [],
+  "api_version": 1,
+  "publish": {
+    "tags": ["achievements", "big-picture", "retroachievements", "rpcs3", "emulation"],
+    "description": "Add-on for Achievements Label: supplies achievement counts for RPCS3 trophies, RetroAchievements and Alice: Madness Returns (MadnessPatch).",
+    "image": ""
+  }
+}
