@@ -3,6 +3,24 @@
 Decky Loader plugins that bring the **Achievements** column back to Steam's Big Picture game bar
 (Valve removed the text), including for games that are not on Steam.
 
+![The Achievements column in Big Picture](docs/screenshots/overview.jpg)
+
+## What it looks like
+
+A Steam game: `2 / 69` with a progress bar, between Play Time and Controller.
+
+![Steam game](docs/screenshots/steam-game.png)
+
+A PS3 game run through RPCS3, with the optional add-on (trophies are read from RPCS3's files):
+
+![RPCS3 game](docs/screenshots/rpcs3-trophies.png)
+
+A PS1 game added with Steam ROM Manager, with the optional add-on (counts come from RetroAchievements):
+
+![RetroAchievements game](docs/screenshots/retroachievements.png)
+
+Screenshots show game artwork, which belongs to its respective owners.
+
 | Folder | What it is | Needs |
 |---|---|---|
 | [`achievements-label`](achievements-label) | **The main plugin.** Draws the column (`2 / 69` + progress bar) from Steam's own data. Works alone for Steam games. | Decky Loader |

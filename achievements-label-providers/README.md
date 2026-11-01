@@ -12,6 +12,14 @@ supplies the numbers for:
 
 Pure Python, nothing else to install. It draws nothing itself; install **both** plugins.
 
+A PS3 game through RPCS3:
+
+![RPCS3 game](../docs/screenshots/rpcs3-trophies.png)
+
+A PS1 game through RetroAchievements:
+
+![RetroAchievements game](../docs/screenshots/retroachievements.png)
+
 ## Install
 
 1. Install Achievements Label first (see its README).

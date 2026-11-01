@@ -2,10 +2,7 @@
 
 Brings an **Achievements** column back to the game details bar in Steam's Big Picture mode:
 
-```
-LAST PLAYED   PLAY TIME   ACHIEVEMENTS         CONTROLLER
-Oct 25        3.5 hours   2 / 69  ▬▬▬▬▬▬▬▬
-```
+![Steam game](../docs/screenshots/steam-game.png)
 
 Unlocked / total, plus a progress bar. The column is hidden for games without achievements.
 
