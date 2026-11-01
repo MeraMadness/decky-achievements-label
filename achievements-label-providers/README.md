@@ -9,6 +9,7 @@ supplies the numbers for:
 | **RPCS3 trophies** | PS3 games run through RPCS3 | RPCS3 installed (trophy files are read from disk) |
 | **RetroAchievements** | emulated games: PS2, PSP, GBA, SNES, N64, Dreamcast, ... | a free RetroAchievements account and its web API key |
 | **MadnessPatch** | Alice: Madness Returns (with [MadnessPatch](https://github.com/Wemino/MadnessPatch)) | the patch installed |
+| **PC / `.exe` games** | Windows games or ports with a RetroAchievements patch or integration | the game's RetroAchievements id, set as an [override](#pc--exe-games) (it can't be guessed) |
 
 Pure Python, nothing else to install. It draws nothing itself; install **both** plugins.
 
@@ -62,6 +63,22 @@ name is recognisable. PS3 / RPCS3 games are handled by the trophy reader, not Re
 
 Keys are a game's name (any case) or its Steam app id. Values: `none`, `ra:<RA game id>`, `ra-console:<console id>`,
 `rpcs3:<NPWR id>`, `madness`.
+
+### PC / `.exe` games
+
+A PC game has no console to guess from, so tell the plugin which RetroAchievements game it is. Open the game's page on
+retroachievements.org; the number at the end of the URL (`.../game/<id>`) is its id. Then add the game to your
+`overrides`, using its name in Steam (any case) or its Steam app id:
+
+```json
+"overrides": {
+  "My PC Game": "ra:1234"
+}
+```
+
+This uses the same RetroAchievements request as the emulator games, so it works for any game that RetroAchievements
+tracks for your account, for example a game or a recompilation with a RetroAchievements patch. I have not tried it with a
+real PC game yet; if it does not work for yours, the plugin's log shows what it asked for.
 
 ## Troubleshooting
 
