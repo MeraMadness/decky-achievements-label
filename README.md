@@ -6,7 +6,7 @@ Decky Loader plugins that bring the **Achievements** column back to Steam's Big 
 | Folder | What it is | Needs |
 |---|---|---|
 | [`achievements-label`](achievements-label) | **The main plugin.** Draws the column (`2 / 69` + progress bar) from Steam's own data. Works alone for Steam games. | Decky Loader |
-| [`achievements-label-providers`](achievements-label-providers) | **Optional add-on.** Supplies numbers for RPCS3 trophies, RetroAchievements and MadnessPatch games, with no other software. | `achievements-label` |
+| [`achievements-label-providers`](achievements-label-providers) | **Optional add-on.** Supplies numbers for RPCS3 trophies, RetroAchievements and EXE games, with no other software. | `achievements-label` |
 
 Install the first one, or both. Download the zips from the [latest release](../../releases/latest) (or copy the folders from this repo) into `~/homebrew/plugins/` and restart Decky Loader
 (`sudo systemctl restart plugin_loader`, or `sudo rc-service plugin_loader restart` on OpenRC).
